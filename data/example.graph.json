@@ -1,0 +1,25 @@
+{
+  "nodes": [
+    {
+      "id": "person:self",
+      "type": "Person",
+      "name": "Self",
+      "metadata": {"role": "graph owner"}
+    },
+    {
+      "id": "source:example",
+      "type": "Source",
+      "name": "Example source"
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge:example:1",
+      "from": "person:self",
+      "to": "source:example",
+      "type": "OWNS",
+      "confidence": 1.0,
+      "source_id": "source:example"
+    }
+  ]
+}
